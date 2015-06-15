@@ -1,0 +1,50 @@
+TO DO
+    - = not done
+    * = completed
+    ~ = WIP
+
+Game Mechanics
+    - board (3x3 grid starting area)
+        - dynamic generated maze surrounding starting area
+    - 1-4 players
+    - AI
+    - event
+        - monsters
+        - resources
+        - abilities
+        - chance
+    - dice roll x6 d6 in any legal combination of atk/resource/(heal/movement)
+        - atk
+            - minimum 1 atk die
+            - maximum 2 atk dice without modifiers
+        - heal/movement
+            - maximum 4 dice in any combinations
+            - minimum 2 dice in any combination
+        - resource
+            - minimum 1 resource die
+            - maximum 2 resource dice without modifiers
+    - shop
+        - trade resources
+        - sell item cards
+            - attack modifiers
+            - movement modifiers
+            - healing modifiers
+            - sabatoge modifiers
+            - ability modifiers
+    - game decisions
+        - move forward, retreat/end turn
+            - movement based off dice rolls
+            - atk power based off dice rolls
+            - resource gathering based off dice rolls
+            - healing based off dice rolls
+            - move through maze or recover health in base
+Game Server
+    - game mechanics
+    - client connection handler
+    - game turn order
+    - game hosting
+    - game start
+    - game random generators (maze, monsters, events)
+Game Client
+    - connect to game server/or spawn one
+    - create ui
