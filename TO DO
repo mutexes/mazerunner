@@ -8,21 +8,16 @@ Game Mechanics
         - dynamic generated maze surrounding starting area
     - 1-4 players
     - AI
-    - event
-        - monsters
-        - resources
-        - abilities
-        - chance
-    - dice roll x6 d6 in any legal combination of atk/resource/(heal/movement)
-        - atk
-            - minimum 1 atk die
-            - maximum 2 atk dice without modifiers
-        - heal/movement
-            - maximum 4 dice in any combinations
-            - minimum 2 dice in any combination
-        - resource
-            - minimum 1 resource die
-            - maximum 2 resource dice without modifiers
+    - dice roll 4-6 d6 (4 base)
+        - atk face
+        - heal/movement faces (1,2,3,4)
+        - resource face
+    - encounter dice
+        - 2x monster face
+        - 1x resource face
+        - map face
+        - 2x nothing face
+    - atk/resource dice d6
     - shop
         - trade resources
         - sell item cards
